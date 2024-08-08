@@ -1,0 +1,1150 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Noto+Sans+JP:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.maincontainer {
+    height: auto;
+    width: 100%;
+    background-color: rgb(15, 40, 15);
+}
+
+.navbar {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
+    padding-block: 25px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(8, 53, 8);
+}
+
+#br1 {
+    display: none;
+}
+
+.i1 {
+    display: none;
+}
+
+.navbar img {
+    width: 18%;
+}
+
+.navbar ul {
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.navbar ul li:first-child a {
+    color: rgb(255, 187, 0);
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 187, 0);
+}
+
+.herosection {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-block: 100px;
+    flex-wrap: wrap;
+}
+
+.herosection h6 {
+    font-size: 1em;
+    color: rgb(255, 187, 0);
+}
+
+.herosection h1 {
+    font-size: 5.5em;
+    font-weight: 800;
+    color: white;
+    margin-top: 10px;
+}
+
+.herosection h1 em:first-child {
+    color: rgb(8, 187, 8);
+}
+
+.herosection h1 em:last-child {
+    color: rgb(255, 187, 0);
+}
+
+em {
+    font-style: normal;
+}
+
+.herosection span {
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.herosection span a {
+    text-decoration: none;
+    color: white;
+}
+
+.herosection span a:hover {
+    color: rgb(255, 187, 0);
+}
+
+.herosection button {
+    height: 60px;
+    width: 350px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.7em;
+    font-weight: 800;
+    background-color: rgb(18, 163, 50);
+    color: white;
+    margin-top: 10px;
+}
+
+#h66 {
+    color: rgb(8, 187, 8);
+    padding-top: 220px;
+}
+
+.herosection h2 {
+    color: rgb(255, 187, 0);
+    font-size: 3.2em;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.herosection p {
+    font-size: 1.3em;
+    color: white;
+    margin-top: 10px;
+}
+
+.smi {
+    position: fixed;
+    right: 0;
+    bottom: 250px;
+}
+
+.iconbox {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.iconbox:first-child {
+    background-color: rgb(59, 59, 255);
+    border-radius: 10px 0px 0px 0px;
+}
+
+.iconbox:nth-child(2) {
+    background-color: rgb(72, 188, 234)
+}
+
+.iconbox:nth-child(3) {
+    background-color: rgb(218, 22, 195);
+}
+
+.iconbox:nth-child(4) {
+    background-color: rgb(20, 189, 20);
+}
+
+.iconbox:last-child {
+    background-color: rgb(54, 54, 249);
+    border-radius: 0px 0px 0px 10px;
+}
+
+.photosec {
+    height: auto;
+    width: 100%;
+    background-color: rgb(15, 40, 15);
+}
+
+.sec1 {
+    height: auto;
+    width: 100%;
+    padding-inline: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo1 {
+    height: 430px;
+    width: 22.5%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(13, 66, 25);
+}
+
+.p1 {
+    height: 70%;
+    width: 85%;
+}
+
+.p2 {
+    height: 70%;
+    width: 85%;
+}
+
+.p3 {
+    height: 70%;
+    width: 85%;
+}
+
+.p4 {
+    height: 70%;
+    width: 85%;
+}
+
+.photo1 h3 {
+    font-size: 1.7em;
+    color: rgb(255, 187, 0);
+    margin-top: 20px;
+}
+
+.photo1 h6 {
+    color: white;
+    font-size: 0.9em;
+}
+
+.p1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.p2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p3 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sec2 {
+    height: auto;
+    width: 100%;
+    padding-inline: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.photo2 {
+    height: 430px;
+    width: 48.3%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(13, 66, 25);
+    padding-block: 20px;
+}
+
+.p5 {
+    height: 80%;
+    width: 92%;
+    border-radius: 10px;
+}
+
+.p5 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p6 {
+    height: 80%;
+    width: 92%;
+    border-radius: 10px;
+
+}
+
+.p6 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.sec3 {
+    height: auto;
+    width: 100%;
+    padding-inline: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.photo2 h3 {
+    font-size: 1.7em;
+    color: rgb(255, 187, 0);
+    margin-top: 20px;
+}
+
+.photo3 h6 {
+    color: white;
+    font-size: 0.9em;
+}
+
+.p7 {
+    height: 70%;
+    width: 85%;
+}
+
+.p8 {
+    height: 70%;
+    width: 85%;
+}
+
+.p9 {
+    height: 70%;
+    width: 85%;
+}
+
+.p10 {
+    height: 70%;
+    width: 85%;
+}
+
+.p7 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p8 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p9 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.p10 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btnsec {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.btnsec button {
+    width: 15%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1.7em;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(50, 188, 50);
+    border: none;
+}
+
+.othsec1 {
+    height: auto;
+    width: 100%;
+    background-color: rgb(21, 52, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 100px;
+}
+
+.othsec1 h6 {
+    color: rgb(255, 187, 0);
+    font-size: 1em;
+}
+
+.othsec1 h2 {
+    font-size: 3.2em;
+    color: rgb(255, 187, 0);
+    margin-top: 20px;
+}
+
+.blog {
+    height: 530px;
+    width: 78%;
+    border: 1px solid green;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.blg {
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-block: 20px;
+    padding-inline: 30px;
+    color: rgb(14, 202, 14);
+}
+
+.blg img {
+    width: 20%;
+}
+
+.blg p {
+    font-size: 1.3em;
+    color: white;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.blg:first-child {
+    border-right: 1px solid green;
+}
+
+.blg:last-child {
+    border-left: 1px solid green;
+}
+
+.ourservices {
+    height: auto;
+    width: 100%;
+    background-color: rgb(30, 71, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 100px;
+}
+
+#h11 {
+    font-size: 3.2em;
+    font-weight: 800;
+    color: rgb(255, 187, 0);
+    margin-bottom: 60px;
+}
+
+.service-part-one {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 40px;
+    padding-inline: 160px;
+    margin-bottom: 50px;
+}
+
+.service-part-two {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 40px;
+    padding-inline: 160px;
+}
+
+.servicebox {
+    height: 200px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: rgba(0, 179, 60, 0.315);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 40px;
+    color: white;
+}
+
+.servicebox h3 {
+    margin-bottom: 20px;
+}
+
+.servicebox:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.315);
+}
+
+.servicebox:nth-child(3) {
+    background-color: rgba(255, 187, 0, 0.315);
+}
+
+.servicebox:nth-child(4) {
+    background-color: rgba(0, 128, 0, 0.315);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    position: relative;
+    top: -30px;
+    background-color: rgb(0, 179, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicebox:nth-child(2) .logo {
+    background-color: red;
+}
+
+.servicebox:nth-child(3) .logo {
+    background-color: rgb(255, 187, 0);
+}
+
+.servicebox:nth-child(4) .logo {
+    background-color: green;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.logo i {
+    font-size: 3em;
+}
+
+.our-happy-clients {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(29, 54, 29);
+    padding-block: 100px;
+}
+
+.our-happy-clients h1 {
+    font-size: 3.2em;
+    color: rgb(255, 187, 0);
+}
+
+.our-happy-clients hr {
+    width: 8%;
+    color: white;
+    height: 2px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.blog2 {
+    width: 74%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block {
+    height: 100%;
+    width: 31.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 30px;
+    padding-block: 30px;
+    border-radius: 30px 30px 30px 60px;
+}
+
+.block p {
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.block img {
+    width: 25%;
+}
+
+.block span {
+    display: flex;
+    align-items: center;
+}
+
+.spn {
+    margin-left: 20px;
+}
+
+.spn p {
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-right: 100px;
+}
+
+.spn h4 {
+    font-size: 1em;
+    color: white;
+}
+
+.block span h1 {
+    font-size: 3.5em;
+}
+
+.block:first-child span {
+    margin-top: 5px;
+}
+
+.block:nth-child(2) span {
+    margin-top: 25px;
+}
+
+.block:nth-child(3) span {
+    margin-top: 25px;
+}
+
+.block:first-child {
+    background-color: rgba(255, 255, 0, 0.100);
+    -webkit-box-shadow: 1px 1px 4px 3px rgba(255, 255, 15, 1);
+    -moz-box-shadow: 1px 1px 2px 4px rgba(255, 255, 15, 1);
+    box-shadow: 1px 1px 4px 3px rgba(255, 255, 15, 1);
+}
+
+.block:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.100);
+    -webkit-box-shadow: 1px 1px 4px 3px rgba(255, 0, 0, 1);
+    -moz-box-shadow: 1px 1px 2px 4px rgba(255, 0, 0, 1);
+    box-shadow: 1px 1px 4px 3px rgba(255, 0, 0, 1);
+}
+
+.block:nth-child(3) {
+    background-color: rgba(0, 128, 0, 0.100);
+    -webkit-box-shadow: 1px 1px 4px 3px rgba(0, 128, 0, 1);
+    -moz-box-shadow: 1px 1px 2px 4px rgba(0, 128, 0, 1);
+    box-shadow: 1px 1px 4px 3px rgba(0, 128, 0, 1);
+}
+
+.block span h1 {
+    color: green;
+}
+
+.block:first-child span h1 {
+    color: yellow;
+}
+
+.block:nth-child(2) span h1 {
+    color: red;
+}
+
+.ranks {
+    height: auto;
+    width: 100%;
+    padding-block: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(22, 60, 22);
+}
+
+.ranks h1 {
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(255, 187, 0);
+}
+
+.r1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ranks1 {
+    width: 40%;
+    height: auto;
+    padding-inline: 10px;
+}
+
+.ranks2 {
+    width: 40%;
+    height: auto;
+    padding-inline: 10px;
+}
+
+.ranks1 h4 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.ranks2 h4 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.finalsec {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 100px;
+    background-color: rgb(35, 66, 35);
+}
+
+.finalsec h1 {
+    color: rgb(255, 187, 0);
+}
+
+.finalsec h3 {
+    color: rgb(28, 176, 28);
+}
+
+.finalsec h3 em {
+    color: rgb(255, 187, 0);
+}
+
+.part1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.part1 img {
+    width: 15%;
+}
+
+.part2 img {
+    width: 10%;
+    height: 10%;
+}
+
+.part2 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid green;
+}
+
+@media (max-width:768px) {
+    .maincontainer {
+        height: auto;
+        width: 100%;
+    }
+
+    .navbar {
+        padding-inline: 50px;
+    }
+
+    .navbar img {
+        width: 40%;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .i1 {
+        display: inline;
+        height: 45px;
+        width: 45px;
+        background-color: rgb(59, 215, 59);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+
+    .herosection h6 {
+        font-size: 0.8em;
+    }
+
+    .herosection h1 {
+        font-size: 3em;
+    }
+
+    .herosection span {
+        font-size: 2.5em;
+    }
+
+    .herosection button {
+        width: 300px;
+        font-size: 1.4em;
+    }
+
+    #h66 {
+        font-size: 0.8em;
+    }
+
+    .herosection h2 {
+        font-size: 1.8em;
+        padding-inline: 43px;
+    }
+
+    .herosection p {
+        font-size: 1em;
+        padding-inline: 140px;
+        text-align: center;
+    }
+
+    .herosection br {
+        display: none;
+    }
+
+    .smi {
+        display: none;
+    }
+
+    .sec1 {
+        flex-direction: column;
+        padding-inline: 30px;
+    }
+
+    .sec3 {
+        flex-direction: column;
+        padding-inline: 30px;
+    }
+
+    .photo1 {
+        height: 100%;
+        width: 100%;
+        padding-block: 20px;
+        margin-bottom: 20px;
+    }
+
+    .p1 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p2 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p3 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p4 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p7 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p8 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p9 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p10 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .sec2 {
+        flex-direction: column;
+        padding-inline: 30px;
+    }
+
+    .photo2 {
+        height: 100%;
+        width: 100%;
+        padding-block: 20px;
+        margin-bottom: 20px;
+    }
+
+    .p5 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .p6 {
+        width: 90%;
+        height: 20%;
+    }
+
+    .btnsec button {
+        width: 35%;
+
+    }
+
+    .othsec1 h2 {
+        font-size: 1.8em;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blg {
+        height: 33.33%;
+        width: 100%;
+        padding-block: 40px;
+    }
+
+    .blg p {
+        font-size: 1em;
+        line-height: 30px;
+    }
+
+    .blg h1 {
+        font-size: 1.6em;
+    }
+
+    .blog {
+        height: 1090px;
+    }
+
+    .blg:first-child {
+        border-bottom: 1px solid green;
+        border-right: none;
+    }
+
+    .blg:last-child {
+        border-top: 1px solid green;
+        border-left: none;
+    }
+
+    .service-part-one {
+        flex-direction: column;
+        padding-inline: 20px;
+        margin-bottom: 0;
+    }
+
+    .service-part-two {
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+
+    .servicebox {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #h11 {
+        font-size: 1.8em;
+    }
+
+    .blog2 {
+        width: 93%;
+        flex-direction: column;
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .block span img {
+        width: 12%;
+    }
+
+    .block span h4 {
+        font-size: 1em;
+    }
+
+    .block span p {
+        font-size: 0.9em;
+    }
+
+    .block:nth-child(2) span {
+        margin-top: 15px;
+    }
+
+    .block:nth-child(3) span {
+        margin-top: 15px;
+    }
+
+    #p11 {
+        margin-right: 199px;
+    }
+
+    #p22 {
+        margin-right: 140px;
+    }
+
+    #p33 {
+        margin-right: 223px;
+    }
+
+    .our-happy-clients h1 {
+        font-size: 1.8em;
+    }
+
+    .ranks h1{
+        font-size: 1.7em;
+    }
+    .r1{
+        flex-direction: column;
+    }
+    .ranks1{
+        width: 100%;
+        margin-bottom: 20px;
+        padding-inline: 20px;
+    }
+    .ranks2{
+        width: 100%;
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .navbar img {
+        width: 60%;
+    }
+
+    .herosection h1 {
+        font-size: 2.5em;
+    }
+
+    #br1 {
+        display: inline;
+    }
+
+    .herosection span {
+        font-size: 1.8em;
+    }
+
+    .herosection h2 {
+        font-size: 1.8em;
+        padding-inline: 20px;
+    }
+
+    .herosection p {
+        padding-inline: 80px;
+    }
+
+    .btnsec button {
+        width: 90%;
+    }
+
+    .photo1 h3 {
+        font-size: 1.6em;
+    }
+
+    .photo2 h3 {
+        font-size: 1.6em;
+    }
+
+    .blog {
+        width: 92%;
+        height: 1400px;
+    }
+
+    .blg img {
+        width: 25%;
+    }
+
+    .blg h1 {
+        font-size: 1.4em;
+    }
+
+    .block {
+        width: 90%;
+    }
+
+    .block span img {
+        width: 25%;
+    }
+
+    .block:nth-child(2) span img {
+        width: 25%;
+    }
+
+
+    #p11 {
+        margin-right: 0;
+    }
+
+    #p22 {
+        margin-right: 0;
+    }
+
+    #p33 {
+        margin-right: 0;
+    }
+
+    .ranks h1{
+        font-size: 1.4em;
+        padding-inline: 20px;
+    }
+    .finalsec h1{
+        font-size: 1.5em;
+    }
+    .part1 img {
+        width: 20%;
+    }
+    
+    .part2 img {
+        width: 19%;
+        height: 19%;
+    }
+}
